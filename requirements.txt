@@ -1,0 +1,5 @@
+# Versions used for the recorded evaluation (Python 3.13).
+numpy==2.4.4
+torch==2.13.0
+matplotlib==3.10.7
+ipykernel==7.0.1
