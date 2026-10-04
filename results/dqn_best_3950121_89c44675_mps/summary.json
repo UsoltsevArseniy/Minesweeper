@@ -1,0 +1,124 @@
+{
+  "algorithm": "DQN",
+  "checkpoint": "runs/minesweeper_dqn_paper/best.pt",
+  "checkpoint_sha256": "89c44675632b5e67f17980858be30efbdfbfe1040b9ad4b76676e69dd205ae72",
+  "env_steps": 3950121,
+  "optimizer_steps": 3259043,
+  "config": {
+    "rows": 6,
+    "cols": 6,
+    "n_mines": 4,
+    "first_action": 0,
+    "seed": 123,
+    "split_seed": 42,
+    "validation_games": 1024,
+    "test_games": 2000,
+    "replay_capacity": 300000,
+    "learning_starts": 10000,
+    "batch_size": 128,
+    "gamma": 0.9,
+    "learning_rate": 0.0001,
+    "min_learning_rate": 1e-05,
+    "lr_decay_every_updates": 500000,
+    "lr_decay_factor": 0.5,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "epsilon_decay_steps": 1000000,
+    "train_every": 1,
+    "target_sync_updates": 2000,
+    "grad_clip_norm": 10.0,
+    "max_env_steps": 4000000,
+    "eval_every_steps": 25000,
+    "checkpoint_every_steps": 10000,
+    "snapshot_every_steps": 500000,
+    "log_every_steps": 1000
+  },
+  "validation": {
+    "win_rate": 0.89453125,
+    "mean_moves": 6.7763671875,
+    "games": 1024
+  },
+  "sl_checkpoint": {
+    "checkpoint": "checkpoints/latest.pt",
+    "env_steps": 2000000,
+    "sha256": "2a4437eb1b9d92bcfe48788f588ca9bab9007d122c28d055db2b3c45d228a698"
+  },
+  "evaluated_at_utc": "2026-10-04T05:46:14.973349+00:00",
+  "python": "3.13.5",
+  "torch": "2.13.0",
+  "numpy": "2.4.4",
+  "device": "mps",
+  "test_layouts_sha256": "4896516734cf139a54bfd5e4a2a864c6e630df685074c6e0fdb49fa4cb644661",
+  "test_status": "common_heldout_layouts_already_used_in_prior_experiments",
+  "metrics": {
+    "DQN": {
+      "wins": 1768,
+      "games": 2000,
+      "win_rate": 0.884,
+      "wilson_95": [
+        0.8692234971392045,
+        0.8973041565436015
+      ],
+      "mean_moves": 6.9715
+    },
+    "SL": {
+      "wins": 1851,
+      "games": 2000,
+      "win_rate": 0.9255,
+      "wilson_95": [
+        0.9131582003288339,
+        0.9362103325931297
+      ],
+      "mean_moves": 8.08
+    },
+    "SP": {
+      "wins": 1719,
+      "games": 2000,
+      "win_rate": 0.8595,
+      "wilson_95": [
+        0.8435797212767918,
+        0.8740418711684396
+      ],
+      "mean_moves": 8.0345
+    },
+    "CSP": {
+      "wins": 1912,
+      "games": 2000,
+      "win_rate": 0.956,
+      "wilson_95": [
+        0.9461032742038248,
+        0.9641483145445074
+      ],
+      "mean_moves": 8.968
+    }
+  },
+  "paired_metrics": {
+    "SL": {
+      "delta": -0.0415,
+      "normal_95": [
+        -0.05885768840812154,
+        -0.024142311591878466
+      ],
+      "dqn_only_wins": 117,
+      "baseline_only_wins": 200
+    },
+    "SP": {
+      "delta": 0.0245,
+      "normal_95": [
+        0.004753486327933723,
+        0.04424651367206628
+      ],
+      "dqn_only_wins": 228,
+      "baseline_only_wins": 179
+    },
+    "CSP": {
+      "delta": -0.072,
+      "normal_95": [
+        -0.08803628242383466,
+        -0.055963717576165334
+      ],
+      "dqn_only_wins": 67,
+      "baseline_only_wins": 211
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "checkpoint": "runs/minesweeper_two_channel/latest.pt",
+  "checkpoint_sha256": "3ad36257b56f7f203dce324fcd3c0bc6ff24225434b740341388d7675b55e698",
+  "env_steps": 2500000,
+  "parameters": 740196,
+  "config": {
+    "rows": 6,
+    "cols": 6,
+    "n_mines": 4,
+    "seed": 42,
+    "first_action": 0,
+    "collect_size": 320,
+    "epochs_per_collect": 10,
+    "batch_size": 32,
+    "learning_rate": 1e-05,
+    "max_env_steps": 2500000,
+    "validation_games": 256,
+    "test_games": 2000,
+    "eval_every_rounds": 25,
+    "checkpoint_every_rounds": 25,
+    "print_every_rounds": 10
+  },
+  "episodes": 335589,
+  "update_rounds": 6763,
+  "optimizer_steps": 676300,
+  "evaluation_version": 1,
+  "evaluated_at_utc": "2026-10-01T21:33:31.706574+00:00",
+  "python": "3.13.5",
+  "numpy": "2.4.4",
+  "torch": "2.13.0",
+  "device": "mps",
+  "test_layouts_sha256": "4896516734cf139a54bfd5e4a2a864c6e630df685074c6e0fdb49fa4cb644661",
+  "test_status": "held_out_from_training_but_reused_for_checkpoint_comparison",
+  "confidence_intervals": "fixed_model_only; exclude training_seed_and_selection_uncertainty",
+  "metrics": {
+    "CNN": {
+      "wins": 1871,
+      "games": 2000,
+      "win_rate": 0.9355,
+      "wilson_95": [
+        0.9238773493378977,
+        0.9454528412320556
+      ],
+      "mean_moves": 8.167
+    },
+    "SP": {
+      "wins": 1719,
+      "games": 2000,
+      "win_rate": 0.8595,
+      "wilson_95": [
+        0.8435797212767918,
+        0.8740418711684396
+      ],
+      "mean_moves": 8.0345
+    },
+    "CSP": {
+      "wins": 1912,
+      "games": 2000,
+      "win_rate": 0.956,
+      "wilson_95": [
+        0.9461032742038248,
+        0.9641483145445074
+      ],
+      "mean_moves": 8.968
+    }
+  },
+  "paired_metrics": {
+    "SP": {
+      "delta": 0.076,
+      "normal_95": [
+        0.05801983586417589,
+        0.0939801641358241
+      ],
+      "cnn_only_wins": 250,
+      "baseline_only_wins": 98
+    },
+    "CSP": {
+      "delta": -0.0205,
+      "normal_95": [
+        -0.03394614380376752,
+        -0.007053856196232479
+      ],
+      "cnn_only_wins": 74,
+      "baseline_only_wins": 115
+    }
+  },
+  "diagnostics": {
+    "post_first_moves": 14334,
+    "higher_risk_than_csp_minimum": 317,
+    "risky_moves_with_safe_alternative": 206,
+    "losses_with_safe_alternative": 37,
+    "losses_on_certain_mine": 17,
+    "losses_without_safe_cell": 92
+  }
+}

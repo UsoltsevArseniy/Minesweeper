@@ -1,0 +1,362 @@
+[
+  {
+    "layout_index": 2,
+    "move": 4,
+    "category": "no_safe_cell",
+    "visible": [
+      [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "cnn_action": 34,
+    "csp_min_risk_action": 13,
+    "chosen_mine_probability": 0.09774436090225563,
+    "minimum_mine_probability": 0.047619047619047616,
+    "consistent_layouts": 3192
+  },
+  {
+    "layout_index": 5,
+    "move": 3,
+    "category": "safe_alternative",
+    "visible": [
+      [
+        2,
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "cnn_action": 12,
+    "csp_min_risk_action": 3,
+    "chosen_mine_probability": 0.07142857142857142,
+    "minimum_mine_probability": 0.0,
+    "consistent_layouts": 756
+  },
+  {
+    "layout_index": 10,
+    "move": 6,
+    "category": "safe_alternative",
+    "visible": [
+      [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      [
+        2,
+        -1,
+        -1,
+        2,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "cnn_action": 2,
+    "csp_min_risk_action": 1,
+    "chosen_mine_probability": 0.5,
+    "minimum_mine_probability": 0.0,
+    "consistent_layouts": 2
+  },
+  {
+    "layout_index": 14,
+    "move": 2,
+    "category": "no_safe_cell",
+    "visible": [
+      [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "cnn_action": 21,
+    "csp_min_risk_action": 2,
+    "chosen_mine_probability": 0.09375,
+    "minimum_mine_probability": 0.09375,
+    "consistent_layouts": 14880
+  },
+  {
+    "layout_index": 487,
+    "move": 4,
+    "category": "certain_mine",
+    "visible": [
+      [
+        0,
+        0,
+        0,
+        1,
+        -1,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        -1,
+        -1
+      ],
+      [
+        0,
+        0,
+        1,
+        -1,
+        3,
+        -1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "cnn_action": 4,
+    "csp_min_risk_action": 10,
+    "chosen_mine_probability": 1.0,
+    "minimum_mine_probability": 0.0,
+    "consistent_layouts": 1
+  },
+  {
+    "layout_index": 677,
+    "move": 9,
+    "category": "certain_mine",
+    "visible": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        2,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        -1,
+        1
+      ]
+    ],
+    "cnn_action": 34,
+    "csp_min_risk_action": 25,
+    "chosen_mine_probability": 1.0,
+    "minimum_mine_probability": 0.0,
+    "consistent_layouts": 1
+  }
+]
